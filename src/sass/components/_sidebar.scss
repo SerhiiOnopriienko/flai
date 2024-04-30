@@ -1,0 +1,25 @@
+.sidebar {
+  background: linear-gradient($color-black-dark 0%, #202e31 75%, #2b2a42 85%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+  height: 96vh;
+  margin-top: -60px;
+  padding: 20px 0;
+
+  &-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & img:first-child {
+      margin-bottom: 35px;
+    }
+
+    & img:nth-child(2) {
+      margin-bottom: 23px;
+    }
+  }
+}

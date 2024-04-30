@@ -1,0 +1,167 @@
+.official-artist {
+  position: absolute;
+  top: 60px;
+  left: 90px;
+  width: 910px;
+  height: 201px;
+  display: flex;
+  padding: 27px 0 12px 40px;
+  background-color: $color-black-light;
+
+  &-grey-text {
+    color: $text-color-grey-light-2;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+
+  &-white-text {
+    color: $text-color-white;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  &-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  &-biger {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  &-midle {
+    font-size: 14px;
+  }
+
+  &-social-image {
+    margin-right: 6px;
+  }
+
+  &-original {
+    border-radius: 20px;
+    width: 85px;
+    height: 24px;
+    background-color: #27459140;
+    color: #6993ff;
+    text-transform: uppercase;
+    text-align: center;
+
+    & p {
+      margin-top: 6px;
+    }
+  }
+
+  &-episode {
+    &-1 {
+      margin-right: 30px;
+    }
+    &-2 {
+      margin-right: 145px;
+    }
+    &-3 {
+      margin-right: 80px;
+    }
+    &-4 {
+      margin-right: 50px;
+    }
+  }
+
+  &-chapter {
+    margin-bottom: 8px;
+  }
+
+  &-lock {
+    filter: blur(1.5px);
+  }
+
+  &-canada {
+    margin-left: 10px;
+  }
+
+  &-border {
+    background-color: #3f3f41;
+    border-radius: 30px;
+    width: 135px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+
+    &-bold {
+      font-size: 1.4rem;
+      margin-right: 5px;
+    }
+  }
+
+  &-upper {
+    margin-top: -27px;
+    background-color: $color-grey-dark;
+    width: 150px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-number {
+      font-size: 40px;
+      color: $text-color-white;
+    }
+
+    &-forVideo {
+      display: flex;
+    }
+
+    &-video {
+      color: $color-lemon;
+    }
+  }
+
+  &-bottom {
+    background-color: $color-green;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & p:first-child {
+      color: #aaffdb;
+      font-size: 1.3rem;
+    }
+
+    & p:last-child {
+      color: $text-color-white;
+      font-size: 3.2rem;
+    }
+  }
+}
+
+.keywords {
+  position: absolute;
+  top: 250px;
+  left: 90px;
+  border-top: 1px solid $text-color-white;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 760px;
+  padding-left: 40px;
+
+  &-word {
+    background-color: $color-grey-dark;
+    border-radius: 20px;
+    color: $text-color-white;
+    font-size: 1.2rem;
+    margin-right: 5px;
+    width: 138px;
+    height: 24px;
+    text-align: center;
+
+    & p {
+      margin-top: 5px;
+    }
+  }
+}

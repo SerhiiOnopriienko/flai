@@ -1,0 +1,19 @@
+@import "variables";
+
+@import "components/header";
+@import "components/sidebar";
+@import "components/messages";
+@import "components/official-artist";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 10px;
+  font-family: Montserrat;
+}
